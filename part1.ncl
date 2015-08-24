@@ -12,6 +12,7 @@
 			<descriptor id="mainDesc" region="mainDevice"/>
 			<descriptor id="screenDesc" region="screenReg">
 				<descriptorParam name="fontSize" value="21"/>
+				<descriptorParam name="fontColor" value="black"/>
 			</descriptor>
 				
 		</descriptorBase>
