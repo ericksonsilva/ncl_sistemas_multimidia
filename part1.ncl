@@ -41,9 +41,21 @@
 		</media>
 						
 		<media id="icon" src="media/info_icon.png" descriptor="screenDesc"/>
-		<media id="joaoPessoa" src="media/joao_pessoa.txt" descriptor="screenDesc"/>
-		<media id="campinaGrande" src="media/campina_grande.txt" descriptor="screenDesc"/>
-		<media id="sousa" src="media/sousa.txt" descriptor="screenDesc"/>				
+		<media id="joaoPessoa" src="media/joao_pessoa.txt" descriptor="screenDesc">
+			<property name="width" value="26%"/>
+			<property name="height" value="20%"/>
+		</media>
+			
+		<media id="campinaGrande" src="media/campina_grande.txt" descriptor="screenDesc">
+			<property name="width" value="30%"/>
+			<property name="height" value="20%"/>
+			<property name="fontSize" value="18"/>
+		</media>
+			
+		<media id="sousa" src="media/sousa.txt" descriptor="screenDesc">
+			<property name="width" value="16%"/>
+			<property name="height" value="20%"/>
+		</media>			
 		
 		<!--
 		<link id="mainLoop" xconnector="onEndStart">
